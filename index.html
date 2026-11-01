@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f0e9df">
+  <meta name="description" content="Crystal Make — beleza, cor e expressão no seu ritmo.">
+  <title>Crystal Make — beleza em movimento</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Crystal Make, início"><img src="assets/logo.png" alt=""><span>CRYSTAL MAKE<small>MAQUIAGEM &amp; BELEZA</small></span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sequencia">A experiência</a>
+      <a href="#colecoes">Descubra</a>
+      <a class="nav-cta" href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer">Fale com a loja <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 01 / Abertura editorial -->
+    <section class="hero" id="inicio">
+      <div class="hero-photo" role="img" aria-label="Maquiagem em tons suaves sobre uma bancada"></div>
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="kicker hero-reveal">BELEZA · COR · EXPRESSÃO</p>
+        <h1 class="hero-title" aria-label="A beleza se move com você"><span data-letters>A BELEZA</span><span data-letters>SE MOVE</span><i data-letters>COM VOCÊ</i></h1>
+        <p class="hero-description hero-reveal">Um convite para experimentar, criar e escolher o seu próprio jeito de brilhar.</p>
+        <a class="text-link hero-reveal" href="#sequencia">Role para descobrir <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-stamp" aria-hidden="true"><img src="assets/logo.png" alt=""></div>
+      <span class="hero-index">01 — 03</span>
+    </section>
+
+    <!-- 02 / Sequência de 36 quadros controlada pelo scroll -->
+    <section class="sequence-track" id="sequencia" aria-label="Uma experiência interativa Crystal Make">
+      <div class="sequence-stage">
+        <div class="sequence-heading">
+          <p class="kicker">CRYSTAL MAKE · EM MOVIMENTO</p>
+          <p class="sequence-counter" aria-live="polite">QUADRO <b>01</b> <span>/ 36</span></p>
+        </div>
+        <div class="sequence-copy">
+          <p class="sequence-label">A CADA MOVIMENTO, UM NOVO ÂNGULO</p>
+          <h2 data-sequence-title>Um novo tom<br>em movimento.</h2>
+          <p class="sequence-description" data-sequence-description>Role a página para percorrer os 36 quadros da rotação do batom.</p>
+        </div>
+        <div class="product-stage">
+          <img class="product-fallback" src="assets/frames/001.jpg" alt="Batom vermelho sobre uma base giratória">
+          <canvas class="js-scrub" role="img" aria-label="Sequência de fotos de um batom girando conforme a rolagem da página"></canvas>
+          <span class="orb-coordinate" aria-hidden="true">ROTAÇÃO · 36 FOTOS</span>
+        </div>
+        <div class="sequence-footer"><span>CONTINUE DESCENDO</span><span class="sequence-line"></span><span>360°</span></div>
+        <div class="sequence-marker" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <!-- 03 / Curadoria e contato -->
+    <section class="discover" id="colecoes">
+      <div class="discover-top">
+        <div>
+          <p class="kicker reveal">BELEZA DO SEU JEITO</p>
+          <h2 class="discover-title"><span data-letters>ESCOLHA</span><br><i data-letters>SUA</i> <span data-letters>PRÓXIMA</span><br><span data-letters>FACETA.</span></h2>
+        </div>
+        <div class="discover-intro reveal">
+          <p>Uma cor que muda o dia. Um detalhe que revela uma nova versão. Explore as possibilidades e encontre o que conversa com você.</p>
+          <a class="text-link dark-link" href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer">Ver novidades no Instagram <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="editorial-grid">
+        <a class="editorial-card reveal" href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer">
+          <img src="assets/categories/rosto.jpg" alt="Maquiagem para o rosto" loading="lazy">
+          <span class="card-number">01 / ROSTO</span><span class="card-title">Realce<br>natural.</span><span class="card-arrow">↗</span>
+        </a>
+        <a class="editorial-card reveal" href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer">
+          <img src="assets/categories/olhos.jpg" alt="Maquiagem para os olhos" loading="lazy">
+          <span class="card-number">02 / OLHOS</span><span class="card-title">Olhar<br>marcante.</span><span class="card-arrow">↗</span>
+        </a>
+        <a class="editorial-card reveal" href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer">
+          <img src="assets/categories/labios.jpg" alt="Maquiagem para os lábios" loading="lazy">
+          <span class="card-number">03 / LÁBIOS</span><span class="card-title">Um toque<br>de cor.</span><span class="card-arrow">↗</span>
+        </a>
+      </div>
+      <div class="contact-band reveal">
+        <img src="assets/logo.png" alt="Crystal Make">
+        <div><p class="kicker">SEU PRÓXIMO BRILHO COMEÇA AQUI</p><h2>Vamos encontrar<br><i>o seu jeito?</i></h2></div>
+        <a class="round-link" href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer" aria-label="Conversar com a Crystal Make no Instagram">↗</a>
+      </div>
+      <footer><a href="#inicio">CRYSTAL MAKE</a><span>BELEZA · COR · EXPRESSÃO</span><a href="https://www.instagram.com/crystalmake._/" target="_blank" rel="noreferrer">@CRYSTALMAKE._ ↗</a></footer>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
